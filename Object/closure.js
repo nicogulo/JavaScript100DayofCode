@@ -12,16 +12,16 @@
 
 
 
-const nama = 'Nico';
-const umur = 22;
-const job = "Frontend Developer";
+// const nama = 'Nico';
+// const umur = 22;
+// const job = "Frontend Developer";
 
 
-function sayHello() {
-  return `Hallo nama saya ${nama}, umur saya ${umur}, saya adalah seorang ${job}`;
-}
+// function sayHello() {
+//   return `Hallo nama saya ${nama}, umur saya ${umur}, saya adalah seorang ${job}`;
+// }
 
-console.log(sayHello());
+// console.log(sayHello());
 
 
 
@@ -47,3 +47,29 @@ console.log(sayHello());
 // todo Hoisting
 
 // todo Scope
+
+
+
+// ! Closure
+// todo Lexical Scope
+// function init() {
+//   let nama = "Nico";
+//   function tampilNama() {
+//     console.log(nama);
+//   }
+//  return tampilNama;
+// }
+// let panggilNama = init();
+// panggilNama(); 
+
+function ucapkanSalam(waktu) {
+  return function (nama) {
+    console.log(`Hallo ${nama}, Selamat ${waktu}`);
+  }
+}
+
+let selamatPagi = ucapkanSalam('Pagi');
+let selamatSiang = ucapkanSalam('Siang');
+let selamatMalam = ucapkanSalam('Malam');
+
+selamatMalam('Nico');
