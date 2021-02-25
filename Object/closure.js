@@ -14,10 +14,11 @@
 
 const nama = 'Nico';
 const umur = 22;
+const job = "Frontend Developer";
 
 
 function sayHello() {
-  return `Hallo nama saya ${nama}, umur saya ${umur}`;
+  return `Hallo nama saya ${nama}, umur saya ${umur}, saya adalah seorang ${job}`;
 }
 
 console.log(sayHello());
