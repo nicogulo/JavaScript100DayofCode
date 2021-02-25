@@ -62,13 +62,29 @@
 // let panggilNama = init();
 // panggilNama(); 
 
-function ucapkanSalam(waktu) {
-  return function (nama) {
-    console.log(`Hallo ${nama}, Selamat ${waktu}`);
-  }
-}
 
-let selamatPagi = ucapkanSalam('Pagi');
-let selamatSiang = ucapkanSalam('Siang');
+// /////////////////////////////////////
+// function ucapkanSalam(waktu) {
+//   return function (nama) {
+//     console.log(`Hallo ${nama}, Selamat ${waktu}`);
+//   }
+// }
 
-selamatMalam('Nico');
+// let selamatPagi = ucapkanSalam('Pagi');
+// let selamatSiang = ucapkanSalam('Siang');
+
+// selamatMalam('Nico');
+
+/////////////////////////////////
+
+let add = (function () {
+  let counter = 0;
+  return function () {
+    return ++counter;
+  } 
+})(); 
+
+
+console.log(add());
+console.log(add());
+console.log(add());
