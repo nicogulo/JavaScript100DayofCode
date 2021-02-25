@@ -70,6 +70,5 @@ function ucapkanSalam(waktu) {
 
 let selamatPagi = ucapkanSalam('Pagi');
 let selamatSiang = ucapkanSalam('Siang');
-let selamatMalam = ucapkanSalam('Malam');
 
 selamatMalam('Nico');
