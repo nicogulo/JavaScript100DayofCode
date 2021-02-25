@@ -5,4 +5,4 @@ This is my another 100DayOfCode JavasScript
 Learn About Object and Closure
 
 ## Day 2
-continue learn Closure
+continue learn Closure(Lexical Scop) and  Arrow Function
