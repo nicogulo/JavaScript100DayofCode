@@ -26,11 +26,47 @@
 
 
 /* Contructor FUnction */
-const Mahasiswa = function() {
-  this.nama = 'nico';
-  this.umur = 22;
-  this.sayHello = function(){
-    console.log(`Hallo, nama saya ${this.nama}, dan saya berumur ${this.umur}`);
-  }
-}
-const nico = new Mahasiswa();
+// const Mahasiswa = function() {
+//   this.nama = 'nico';
+//   this.umur = 22;
+//   this.sayHello = function(){
+//     console.log(`Hallo, nama saya ${this.nama}, dan saya berumur ${this.umur}`);
+//   }
+// }
+// const nico = new Mahasiswa();
+
+/* Arrow Function */
+
+
+/* Object Literal */
+
+// const mhs1 = {
+//   nama: 'Nico',
+//   umur: 23,
+//   sayHello: ()=>{
+//     console.log(`Hallo, nama saya ${this.nama} dan saya berumur ${this.umur}`);
+//   }
+// }
+
+// const Mahasiswa = function() {
+//   this.nama = 'nico';
+//   this.umur = 22;
+//   this.sayHello = function(){
+//     console.log(`Hallo, nama saya ${this.nama}, dan saya berumur ${this.umur}`);
+//   }
+
+//   setInterval(() =>{
+//     console.log(this.umur++);
+//   });
+// }
+// const nico = new Mahasiswa();
+
+
+/* implement arrow function */
+const box = document.querySelector('.box');
+box.addEventListener('click', function(){
+  this.classList.toggle('size');
+  setTimeout(()=>{
+    this.classList.toggle('caption');
+  }, 600);
+});
