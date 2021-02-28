@@ -9,3 +9,6 @@ continue learn Closure(Lexical Scop) and  Arrow Function
 
 ## Day 3
 continue learn Arrow Function and Implement
+
+# Day 4
+Learn higher order function
