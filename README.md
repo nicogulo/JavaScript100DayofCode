@@ -16,5 +16,5 @@ continue learn Arrow Function and Implement
 
 ## Day 4
 
-Learn higher order function
+Learn higher order function.
 Filter
