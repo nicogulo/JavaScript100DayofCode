@@ -8,6 +8,7 @@ if(notes) {
 
 addBtn.addEventListener('click', () => addNewNote())
 
+// add new note
 function addNewNote(text = '') {
     const note = document.createElement('div')
     note.classList.add('note')
