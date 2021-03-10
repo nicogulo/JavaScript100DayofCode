@@ -52,7 +52,10 @@ body::-webkit-scrollbar-thumb {
 .hero2{
   margin-top: 20px;
 }
-
+.back{
+  bottom: -100px;
+  left: 20px;
+}
 .title-text-content-3-7{
   font-size: 22px;
   line-height: 1.50rem;
