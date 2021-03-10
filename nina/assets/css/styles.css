@@ -23,15 +23,10 @@
 
 
 .midi {
-  width: 400px;
-  height: 450px;
+  width: 200px;
+  height: 230px;
   margin-bottom: 20px;
 }
-
-
-
-
-
 
 
 .main-content-3-7{
@@ -65,62 +60,13 @@
   left: -3px;
   position: relative;
   transition: 0.4s;
+  
 }
 .card-outline-content-3-7{
   border: 1px solid #E5EBF9;
   padding: 2rem 2.75rem 2rem 2.75rem;
   background-color: #FFFFFF;
   border-radius: 1rem;
-}
-.price-title-content-3-7{
-  color: #141C2E;
-  font-size: 1.25rem;
-  line-height: 1.75rem;
-  letter-spacing: 0.025em;
-  font-weight: 500;
-  margin-bottom: 0.75rem;
-}
-.price-value-content-3-7{
-  font-size: 2.25rem;
-  line-height: 2.5rem;
-  letter-spacing: 0.025em;
-  margin-bottom: 0.75rem;
-  font-weight: 500;
-  color: #2E3A53;
-}
-.price-duration-content-3-7{
-  font-weight: 400;
-  font-size: 1rem;
-  line-height: 1.5rem;
-  margin: 0.625rem;
-  color: #9E9E9E;
-}
-.price-caption-content-3-7{
-  font-weight: 400;
-  font-size: 1rem;
-  line-height: 1.5rem;
-  letter-spacing: 0.025em;
-  margin-bottom: 2.5rem;
-  color: #C3C3C8;
-}
-.price-list-content-3-7 .check-3-7{
-  color: #2E3A53;
-  letter-spacing: 0.025em;
-  font-size: 0.875rem;
-  line-height: 1.25rem;
-  margin-bottom: 1.75rem;
-}
-.price-list-content-3-7 .no-check-3-7{
-  color: #E1E1E1;
-  letter-spacing: 0.025em;
-  font-size: 0.875rem;
-  line-height: 1.25rem;
-  margin-bottom: 1.75rem;
-}
-.span-icon-3-7{
-  width: 1rem;
-  height: 1rem;
-  margin-right: 0.75rem;
 }
 .btn-outline-content-3-7{
   border: 1px solid #2EC49C;
@@ -141,6 +87,7 @@
   padding-top: 1rem;
   padding-bottom: 1rem;
   font-weight: 500;
+  font-size: 14px;
   letter-spacing: 0.025em;
   border-radius: 0.5rem;
 }
@@ -153,9 +100,13 @@
     font-size: 2.25rem;
     line-height: 2.5rem;
   }
-  .card-content-3-7{
-    padding: 1rem 1rem 1rem 1rem;
+  .midi {
+    width: 400px;
+    height: 450px;
+    margin-bottom: 20px;
   }
+  
+  
 }
 @media (min-width: 768px) {
   .main-content-3-7{
