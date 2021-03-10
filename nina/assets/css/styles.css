@@ -33,12 +33,12 @@
     padding: 1rem 1rem 1rem 1rem;
   }
 .title-text-content-3-7{
-  font-size: 1.875rem;
-  line-height: 2.25rem;
+  font-size: 22px;
+  line-height: 1.50rem;
   letter-spacing: 0.05em;
   font-weight: 800;
   margin-bottom: 0.75rem;
-  color: #2E3A53;
+  color: #8E8FAD;
 }
 .caption-text-content-3-7{
   font-size: 1.2rem;
@@ -53,7 +53,7 @@
   left: 0px;
   position: relative;
   margin-top: -10px;
-
+  
 }
 .card-content:hover{
   top: -3px;
@@ -64,7 +64,7 @@
 }
 .card-outline-content-3-7{
   border: 1px solid #E5EBF9;
-  padding: 1rem 4rem 1rem 5rem;
+  padding: 1rem 4.3rem 1rem 4.3rem;
   background-color: #2E3A53;
   border-radius: 1rem;
 }
