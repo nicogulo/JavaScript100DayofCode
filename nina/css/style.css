@@ -50,7 +50,10 @@ body::-webkit-scrollbar-thumb {
   width: 50%;
 }
 .hero2{
-  margin-top: 20px;
+  margin-top: 10px;
+}
+.hero2 img{
+  width: 50%;
 }
 .back{
   bottom: -70px;
