@@ -60,7 +60,7 @@ body::-webkit-scrollbar-thumb {
   left: 20px;
 }
 .title-text-content-3-7{
-  font-size: 22px;
+  font-size: 20px;
   line-height: 1.50rem;
   letter-spacing: 0.05em;
   font-weight: 800;
@@ -76,7 +76,7 @@ body::-webkit-scrollbar-thumb {
   margin-bottom: 0;
 }
 .form-group{
-  margin-top: 28px;
+  margin-top: 15px;
 }
 
 .btn-checkin{
