@@ -80,8 +80,6 @@ const videos = Array.from(document.querySelectorAll('[data-duration]'));
 
 let jsLanjut = videos.filter(video => video.textContent.includes('JavaScript Lanjutan'))
 
-
-
 // Ambil durasi masung masing video
 .map(item => item.dataset.duration)
 
@@ -91,7 +89,6 @@ let jsLanjut = videos.filter(video => video.textContent.includes('JavaScript Lan
     const parts = waktu.split(':').map(part => parseFloat(part));
     return (parts[0] * 60) + parts[1];
 })
-
 
 //  jumlahkan semua detik
 .reduce((total, detik) => total + detik);
