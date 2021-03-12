@@ -53,8 +53,46 @@ const angka = [-1, 8, 9, 1, 4, -5, -4, 3, 2, 9];
 // hasilnya kali 3
 // jumlahkan
 
-const hasil = angka.filter(a => a > 5) //8, 9, 9
-  .map(a => a * 3) // 24, 27, 27
-  .reduce((acc, cur) => acc + cur); //78
+// const hasil = angka.filter(a => a > 5) //8, 9, 9
+//   .map(a => a * 3) // 24, 27, 27
+//   .reduce((acc, cur) => acc + cur); //78
 
-  console.log(hasil);
+//   console.log(hasil);
+
+
+
+
+
+
+
+
+
+
+// Ambil semua elemen video
+const videos = Array.from(document.querySelectorAll('[data-duration]'));
+
+
+
+
+
+
+// pilih hanya yang "JavaScript Lanjutan"
+
+const jsLanjut = videos.filter(video => video.textContent.includes('JavaScript Lanjutan'))
+
+
+
+// Ambil durasi masung masing video
+.map(item => item.dataset.duration);
+
+// ubah durasi menjadi int, ubah menjadi detik
+
+
+
+//  jumlahkan semua detik
+
+// ubah formatnya menjadi jam menit detik
+
+// simpan DOM
+
+console.log(jsLanjut);
