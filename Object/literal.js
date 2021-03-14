@@ -8,7 +8,7 @@
 // console.log(`${1 + 1}`);
 
 
-HTML Fragment
+// * HTML Fragment
 const mhs = {
     nama: 'Nico',
     umur: 22,
