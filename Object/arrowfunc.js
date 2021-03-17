@@ -7,6 +7,11 @@
 //   return `Selamat ${waktu}, ${nama}`
 // }
 // console.log(tampilNama('Nico', 'Malam'));
+const arrowFunction = (parameter) =>{
+  return  `ini ${parameter}`;
+}
+console.log(arrowFunction('Arrow Function')); //ini Arrow Function
+
 
 // * Implisit return
 
@@ -63,10 +68,10 @@
 
 
 /* implement arrow function */
-const box = document.querySelector('.box');
-box.addEventListener('click', function(){
-  this.classList.toggle('size');
-  setTimeout(()=>{
-    this.classList.toggle('caption');
-  }, 600);
-});
+// const box = document.querySelector('.box');
+// box.addEventListener('click', function(){
+//   this.classList.toggle('size');
+//   setTimeout(()=>{
+//     this.classList.toggle('caption');
+//   }, 600);
+// });
