@@ -8,12 +8,30 @@
 // console.log(`${1 + 1}`);
 
 
-// * HTML Fragment
+// // * HTML Fragment
+// const mhs = {
+//     nama: 'Nico',
+//     umur: 22,
+//     nim: 2021731333,
+//     email: 'nico1731333@irpln.ac.id'
+// };
+
+// const el = `<div class="mhs">
+//     <h2>${mhs.nama}</h2>
+//     <span class="nim">${mhs.nim}</span>
+// </div>`;
+
+// console.log(el);
+
+
+// ! HTML  Fragment
+
+
 const mhs = {
     nama: 'Nico',
     umur: 22,
-    nim: 2021731333,
-    email: 'nico1731333@irpln.ac.id'
+    nim: '201731333',
+    email: 'nicogulobelas@gmail.com'
 };
 
 const el = `<div class="mhs">
@@ -21,6 +39,4 @@ const el = `<div class="mhs">
     <span class="nim">${mhs.nim}</span>
 </div>`;
 
-console.log(el);
-
-
+document.body.innerHTML = el;
