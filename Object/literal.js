@@ -115,10 +115,10 @@
 
 // ! Tagged templates
 
-const nama = 'Nico';
-const umur = 22;
+// const nama = 'Nico';
+// const umur = 22;
 
-function test (strings, ...values){
+// function test (strings, ...values){
 //     let result = '';
 //     strings.forEach((str, i) =>{
 //         result += `${str}${values[i] || ''}`;
@@ -126,10 +126,23 @@ function test (strings, ...values){
 //     return result;
  
 
-// * use higher order func
+//  * use higher order func
+
+// return strings.reduce((result, str, i) =>
+//     `${result}${str}${values[i] || ''}`, '');
+// }
+// const str = test `Hallo nama saya ${nama}, umur saya ${umur} tahun`;
+// console.log(str);
+
+// ! implement tagged template with highlight
+
+const nama = 'Nico';
+const umur = 22;
+
+function test (strings, ...values){
 
 return strings.reduce((result, str, i) =>
-    `${result}${str}${values[i] || ''}`, '');
+    `${result}${str}<span class = "hl"> ${values[i] || ''}</span>`, '');
 }
 const str = test `Hallo nama saya ${nama}, umur saya ${umur} tahun`;
-console.log(str);
+ document.body.innerHTML = str;
