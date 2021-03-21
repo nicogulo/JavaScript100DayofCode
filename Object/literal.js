@@ -119,12 +119,17 @@ const nama = 'Nico';
 const umur = 22;
 
 function test (strings, ...values){
-    let result = '';
-    strings.forEach((str, i) =>{
-        result += `${str}${values[i] || ''}`;
-    });
-    return result;
-}
+//     let result = '';
+//     strings.forEach((str, i) =>{
+//         result += `${str}${values[i] || ''}`;
+//     });
+//     return result;
+ 
 
+// * use higher order func
+
+return strings.reduce((result, str, i) =>
+    `${result}${str}${values[i] || ''}`, '');
+}
 const str = test `Hallo nama saya ${nama}, umur saya ${umur} tahun`;
 console.log(str);
