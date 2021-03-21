@@ -18,3 +18,7 @@ continue learn Arrow Function and Implement
 
 Learn higher order function.
 Filter, Map, Reduce and Method Chaining
+
+## Day 5
+
+implement filter, map, reduce and method chaining
