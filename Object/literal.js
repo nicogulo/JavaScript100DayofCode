@@ -85,27 +85,46 @@
 
 // ! Nested
 
-const mhs = {
-    nama: 'nico',
-    semester: 5,
-    matakuliah: ['RPL', 'WEB', 'KALKULUS', 'PBO']
-};
+// const mhs = {
+//     nama: 'nico',
+//     semester: 5,
+//     matakuliah: ['RPL', 'WEB', 'KALKULUS', 'PBO']
+// };
 
-function cetakMatakuliah (matakuliah) {
-    return `
-    <ol>
-        ${matakuliah.map(mk => `<li>${mk}</li>`).join('' )}
-    </ol>
-    `
+// function cetakMatakuliah (matakuliah) {
+//     return `
+//     <ol>
+//         ${matakuliah.map(mk => `<li>${mk}</li>`).join('' )}
+//     </ol>
+//     `
+// }
+
+// const el = `<div class="mhs">
+//     <h2>${mhs.nama}</h2>
+//     <span class="semester">Semester ${mhs.semester}</span>
+//     <h4>Matakuliah: </h4>
+//     ${cetakMatakuliah(mhs.matakuliah)}
+// </div>`;
+
+
+
+// document.body.innerHTML = el;
+
+
+
+
+// ! Tagged templates
+
+const nama = 'Nico';
+const umur = 22;
+
+function test (strings, ...values){
+    let result = '';
+    strings.forEach((str, i) =>{
+        result += `${str}${values[i] || ''}`;
+    });
+    return result;
 }
 
-const el = `<div class="mhs">
-    <h2>${mhs.nama}</h2>
-    <span class="semester">Semester ${mhs.semester}</span>
-    <h4>Matakuliah: </h4>
-    ${cetakMatakuliah(mhs.matakuliah)}
-</div>`;
-
-
-
-document.body.innerHTML = el;
+const str = test `Hallo nama saya ${nama}, umur saya ${umur} tahun`;
+console.log(str);
