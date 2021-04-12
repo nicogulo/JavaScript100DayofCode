@@ -24,6 +24,6 @@ const liNama = document.querySelectorAll('.nama');
 
 // liNama.forEach(n => console.log(n.innerHTML));
 
-for (n of liNama){
-  console.log(n.innerHTML);
-}
+// for (n of liNama){
+//   console.log(n.innerHTML);
+// }
