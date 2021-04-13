@@ -1,4 +1,4 @@
-# JavaScript100DayofCode
+<!-- # JavaScript100DayofCode
 
 This is my another 100DayOfCode JavasScript
 
@@ -21,4 +21,4 @@ Filter, Map, Reduce and Method Chaining
 
 ## Day 5
 
-implement filter, map, reduce and method chaining
+implement filter, map, reduce and method chaining -->
