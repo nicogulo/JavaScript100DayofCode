@@ -26,15 +26,15 @@
 // console.log(email);
 
 // ! ES6
-const profile = {
-  firstName: "Dev",
-  lastName: "Nic",
-  age: 22,
-};
+// const profile = {
+//   firstName: "Dev",
+//   lastName: "Nic",
+//   age: 22,
+// };
 
-const { firstName, lastName, age } = profile;
+// const { firstName, lastName, age } = profile;
 
-console.log(firstName, lastName, age);
+// console.log(firstName, lastName, age);
 
 // ! tanpa deklarasi object
 
@@ -48,14 +48,14 @@ console.log(firstName, lastName, age);
 
 // *
 
-// function math(a, b) {
-//   return [a + b, a * b];
-// }
+function math(a, b) {
+  return [a + b, a * b];
+}
 
 // general
-// const values = math(2,3)[0];
+// const values = math(2, 3)[0];
 // console.log(values);
 
 // with destructuring
-// const [plus, multiple] = math(2, 3);
-// console.log(multiple);
+const [plus, multiple] = math(2, 3);
+console.log(multiple);
