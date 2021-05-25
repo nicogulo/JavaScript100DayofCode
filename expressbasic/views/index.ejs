@@ -9,5 +9,10 @@
   <body>
     <p><%= name %> here</p>
     <p>how was your days? is't <%= greet %>?</p>
+    <p>if is't <%= greet %>?</p>
+
+    <% for(let i=0; i < fruit.length; i++){ %>
+    <p>eat some <%= fruit[i].name %></p>
+    <% } %>
   </body>
 </html>
