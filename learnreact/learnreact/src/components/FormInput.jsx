@@ -19,9 +19,13 @@ export default class FormInput extends Component {
       [e.target.name]: e.target.value,
     });
   };
+  handleSubmit = (e) => {
+    console.log('prevent is success');
+    e.preventDefault();
+  };
   render() {
     return (
-      <div>
+      <form onSubmit={this.handleSubmit}>
         <div>
           <p>Nama saya {this.state.name}</p>
           <input
@@ -63,7 +67,9 @@ export default class FormInput extends Component {
           checked={this.state.salary === 'Rp. 5000000' ? true : false}
         />{' '}
         Rp. 5000000
-      </div>
+        <br />
+        <button type="submit">Send</button>
+      </form>
     );
   }
 }

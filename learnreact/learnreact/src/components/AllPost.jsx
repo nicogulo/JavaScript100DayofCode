@@ -26,15 +26,19 @@ export default class AllPost extends Component {
   }
 
   render() {
-    return this.state.posts.map((post) => {
-      return (
-        <Post
-          key={post.id}
-          title={post.nama}
-          body={post.harga}
-          img={post.foto}
-        />
-      );
-    });
+    return this.state.posts.length > 0 ? (
+      this.state.posts.map((post) => {
+        return (
+          <Post
+            key={post.id}
+            title={post.nama}
+            body={post.harga}
+            img={post.foto}
+          />
+        );
+      })
+    ) : (
+      <h1>Loading..</h1>
+    );
   }
 }

@@ -1,9 +1,9 @@
-import AllPost from './components/AllPost';
+import HookUsestate from './components/HookUsestate';
 import './App.css';
 function App() {
   return (
     <div>
-      <AllPost />
+      <HookUsestate />
     </div>
   );
 }
