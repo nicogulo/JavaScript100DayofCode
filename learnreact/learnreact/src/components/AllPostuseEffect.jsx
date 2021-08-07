@@ -20,6 +20,7 @@ export default function AllPostuseEffect() {
 
   return (
     <div>
+      <h2>This is useEffect Component</h2>
       {data.map((datas) => {
         return (
           <div key={datas.id}>
