@@ -4,9 +4,9 @@ export default class Post extends Component {
   render() {
     return (
       <div>
-        <h2>{this.props.title}</h2>
-        <p>{this.props.body}</p>
-        <img src={this.props.img} alt={this.props.title} />
+        <h2>{this.props.nama}</h2>
+        <p>{this.props.detail}</p>
+        <img src={this.props.foto} alt={this.props.nama} />
       </div>
     );
   }
